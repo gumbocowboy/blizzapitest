@@ -35,5 +35,5 @@ app.post("/", function(req, res){
 
 
 app.listen(3000, function(){
-    console.log("Point of Sale software running on port 3000.");
+    console.log("Blizz api test is running on 3000.");
 })
