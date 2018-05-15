@@ -12,11 +12,11 @@
     
     <h1><%= char.name %></h1>
     <h2><%= char.realm %></h2>
-    <p><%= char.level char.</p>
-    <img src="http://us.battle.net/static-render/us/<%= char.thumbnail%>" alt="Whoops">
+    <p><%= char.level%></p>
+    <img src="http://us.battle.net/static-render/us/<%= char.thumbnail %>" alt="Whoops">
     <form action="/" method="POST">
-        <input type="text" name="server" id="server">
-        <input type="text" name="name" id="name">
+        <input type="text" name="server" id="server" placeholder="Server">
+        <input type="text" name="name" id="name" placeholder= "Character Name">
         <button>Submit</button>
     </form>
 </body>
